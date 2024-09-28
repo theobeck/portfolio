@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "p-dark-blue": "#071952",
+        "p-mid-blue": "#088395",
+        "p-light-blue": "#37B7C3",
+        "p-white": "#EBF4F6",
+      },
+      screens: {
+        "xs": "450px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
