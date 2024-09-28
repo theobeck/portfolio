@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="w-full h-full z-10 px-14 py-32 absolute bg-p-white flex justify-center">
       <div className="w-full flex flex-col items-center">
-        <h1 className="text-5xl pb-6">Karl Theodor Ladegård Beck</h1>
-        <p className="text-2xl">Velkommen til min portefølje!</p>
+        <h1 className="md:text-5xl sm:text-4xl text-3xl pb-6">Karl Theodor Ladegård Beck</h1>
+        <p className="md:text-2xl sm:text-xl text-lg">Velkommen til min portefølje!</p>
       </div>
     </main>
   );
